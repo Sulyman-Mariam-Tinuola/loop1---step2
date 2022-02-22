@@ -1,0 +1,169 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+* *::before *::after{
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-image: url(./assets/img/background.jpg);
+
+}
+main{
+    /* height: 40vh; */
+    /* width: 40vw; */
+    background-color: #fff;
+    margin-bottom: 15rem;
+    display: grid;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+    /* margin-top: 14rem; */
+   }
+    .dots{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:6px;
+        padding-top: 15px;
+        padding-bottom: 1rem;
+
+        
+
+    }
+    .dot1{        
+
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background-color: hsl(0deg 0% 72%);
+        
+    }
+    .dot2{        
+
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background-color: hsl(0deg 0% 90%);
+        
+    }
+
+    .dot3{        
+
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background-color: hsl(0deg 0% 90%);
+        
+    }
+
+    .PM{ text-transform: uppercase;
+        color: hsl(213deg 6% 29%);
+        border-bottom: 1px solid hsl(0deg 0% 93%);
+        text-align: center;
+        /* padding-top: 6rem; */
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 2rem;
+    
+    
+    }
+
+.visa img{
+     height: 1.5rem;
+}
+
+.ms img{
+    height: 1.5rem;
+    
+    
+
+}
+
+.ms{
+    border-bottom: 1px solid hsl(0deg 0% 93%);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.maestro img{ height: 1.5rem;
+
+}
+
+.maestro{ 
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px;
+    
+
+}
+
+.ns{
+
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(217deg 66% 61%);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    /* border-radius: 6px; */
+}
+
+.visa { 
+    display: flex; 
+    align-items: center;
+    border-bottom: 1px solid hsl(0deg 0% 93%);
+    text-transform: uppercase;
+    padding: 10px;
+    
+    
+}
+
+.ms{ display: flex;
+align-items: center;
+}
+
+.check {
+    margin-left: 7rem;
+    /* height:; */
+    /* background-color: red; */
+    width: 20px;
+    color: hsl(0deg 0% 90%);
+
+}
+
+.p{ 
+    margin-left: 1rem;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.l{ margin-left: 1rem;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(216deg 4% 76%);
+}
+
+.img{
+    padding-left: 2rem;
+}
+
+.mark{ padding-top: 1px;
+    width: 14px;
+    margin-left: 4px;
+    
+}
+
